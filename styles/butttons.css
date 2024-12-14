@@ -1,0 +1,86 @@
+.subscribe-button{
+  background-color: rgb(200, 3, 3);
+  color:white;
+  border:none;
+  /* height:30px;
+  width:105px; */
+  padding: 10px 15px 10px 15px;
+  border-radius: 2px;
+  cursor:pointer;
+  margin-right:9px;
+
+  transition:opacity 1s;
+}
+
+.subscribe-button:hover{
+  opacity: 0.7;
+}
+.subscribe-button:active{
+  opacity:0.4;
+}
+
+
+.join-button{
+  background-color: white;
+  color:rgb(0, 162, 255);
+  border-style: solid;
+  border-radius: 2px;
+  /* height:30px; */
+  /* width:57px; */
+  padding:10px;
+  border-color:rgb(0, 162, 255) ;
+  cursor:pointer;
+  margin-right:9px;
+  font-weight:bold;
+  vertical-align: top;
+
+  transition:
+   background-color 1s,
+  color 1s;
+  
+
+}
+.join-button:hover{
+background-color: rgb(0, 153, 255);
+color:white;
+}
+.join-button:active{
+  opacity:0.7;
+}
+
+
+.Tweeter-button{
+  background-color:rgb(0, 162, 255);
+  color:rgb(255, 255, 255);
+  border-radius:20px;
+  /* height:30px;
+  width:75px; */
+  padding:12px 10px 12px 10px;
+  border:none;
+  cursor:pointer;
+  font-weight:bold;
+  vertical-align:top;
+  
+  transition: box-shadow 0.3s;
+ 
+}
+
+.Tweeter-button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+
+.khushi-button{
+  background-color: rgb(255, 15, 183);
+  color:white;
+  padding: 15px 10px 15px 10px;
+  border: none;
+  cursor:pointer;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius:20px;
+}
+.khushi-button:hover{
+
+}
